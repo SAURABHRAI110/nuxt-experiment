@@ -29,7 +29,7 @@ export default {};
 header {
   background: rgb(0, 219, 146);
   display: grid;
-  grid-auto-columns: repeat(2, auto);
+  grid-template-columns: repeat(2, auto);
 }
 
 .logo,
