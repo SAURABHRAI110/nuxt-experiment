@@ -1,7 +1,7 @@
 import pkg from './package'
 
 export default {
-  mode: 'spa',
+  mode: 'universal',
 
   /*
    ** Headers of the page
@@ -31,7 +31,7 @@ export default {
    ** Customize the progress-bar color
    */
   loading: {
-    color: '#fff'
+    color: '#000'
   },
 
   /*
@@ -45,7 +45,10 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: [{
+    src: '~/plugins/rellax',
+    ssr: false
+  }],
 
   /*
    ** Nuxt.js modules

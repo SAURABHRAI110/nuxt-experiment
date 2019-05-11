@@ -7,6 +7,11 @@ section {
   padding: 5em;
 }
 
+header {
+  position: fixed;
+  background-color: red;
+}
+
 h1 {
   font-size: 1, 5em;
   margin-bottom: 2em;

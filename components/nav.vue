@@ -27,9 +27,12 @@ export default {};
 
 <style>
 header {
-  background: rgb(0, 219, 146);
+  /* background: rgb(216, 60, 39); */
   display: grid;
   grid-template-columns: repeat(2, auto);
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .logo,
